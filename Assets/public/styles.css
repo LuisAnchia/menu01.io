@@ -196,7 +196,7 @@ footer {
 }
 
 .bebida.show {
-    animation: bounce 3.5s ease forwards;
+    animation: bounce 4.5s ease forwards;
     animation-delay: 0.5s; /* Retraso para que la animación comience después de un corto tiempo */
 }
 
