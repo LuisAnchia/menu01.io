@@ -1,0 +1,228 @@
+body{
+    background: #FAF6D4;
+    background-image: url(/Assets/img/Patrón\ parte\ superior1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 191px;
+    margin: unset;
+    background-size: 400px;
+}
+
+.bodyImg{
+    background-image: url(/Assets/img/Patrón\ parte\ superior.svg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center;
+    height: 390px;
+    margin: unset;
+}
+.content{
+    padding: 10px;
+}
+
+.title_Prinicipal--h1 {
+    font-family: "Lilita One", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    -webkit-text-stroke: 2.7px #CF1E18;
+    color: #ffffffdf;
+    font-size: 2.7rem;
+    animation: bounce 1.5s ease forwards;
+    animation-delay: 0.5s; /* Retraso para que la animación comience después de un corto tiempo */
+}
+
+h1.title_Prinicipal--h1 span {
+    color: #CF1E18;
+    display: block;
+    -webkit-text-stroke: 2px transparent;
+    text-align: center;
+    margin-top: -8px;
+}
+
+.titlePrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden; /* Añadido para ocultar el desbordamiento del texto */
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-100%); /* Empieza fuera de la pantalla */
+    }
+    25% {
+        transform: translateY(30%); /* Baja a la mitad de la pantalla */
+    }
+    50% {
+        transform: translateY(-15%); /* Rebote suave */
+    }
+    75% {
+        transform: translateY(10%); /* Rebote suave */
+    }
+    100% {
+        transform: translateY(0); /* Rebote suave */
+    }
+}
+
+
+.titleFood{
+    color: #CF1E18;
+    font-size: 1.9rem;
+    font-weight: bold;
+    position: relative;
+    bottom: 40px;
+    font-family: "Lilita One", sans-serif;
+}
+
+.titleFood--text {
+    margin-top: -15px;
+}
+
+.titleFood--text2 {
+    margin-top: -55px;
+    font-size: 13px;
+}
+
+.titleFood--text2 p {
+    font-weight: bold;
+}
+
+.titleFood--text2 span {
+    font-size: 6.5px;
+    font-weight: 100;
+}
+
+.titleFood--text p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.titleFood--text span {
+    font-size: 7px;
+    font-weight: 100;
+}
+
+.main{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 50px;
+}
+
+img.background {
+    position: relative;
+    bottom: 922px;
+    right: 45px;
+    width: 139%;
+}
+
+.imgHamburger {
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Añadido */
+}
+
+.firstHamburger {
+    position: relative;
+    bottom: 103px;
+    right: 88px;
+    width: 106px;
+    animation: bounce 1.5s ease forwards;
+    animation-delay: 0.5s; /* Retraso para que la animación comience después de un corto tiempo */
+}
+
+.secondHamburger {
+    position: absolute;
+    width: 157px;
+    right: 26px;
+    top: 33px;
+    animation: bounce 1.5s ease forwards;
+    animation-delay: 0.5s; /* Retraso para que la animación comience después de un corto tiempo */
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-100%); /* Empieza fuera de la pantalla */
+    }
+    25% {
+        transform: translateY(30%); /* Baja a la mitad de la pantalla */
+    }
+    50% {
+        transform: translateY(-15%); /* Rebote suave */
+    }
+    75% {
+        transform: translateY(10%); /* Rebote suave */
+    }
+    100% {
+        transform: translateY(0) translateX(0); /* Rebote suave y regresa a la posición original */
+    }
+}
+
+
+.displayFood {
+    display: flex;
+    gap: 30px;
+}
+
+.h2Extras{
+    -webkit-text-stroke: 2.5px #CF1E18;
+    color: #ffffff1f;
+    font-weight: bold;
+    font-size: 1.9rem;
+    font-family: "Lilita One", sans-serif;
+}
+
+footer {
+    background-image: url(/Assets/img/Patrón\ parte\ inferior.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 375px;
+    position: relative;
+    bottom: 190px;
+}
+
+.bebida {
+    position: relative;
+}
+
+.bebida.static {
+    opacity: 1; /* Mostrar la imagen estática al cargar la página */
+}
+
+.bebida.show {
+    animation: bounce 3.5s ease forwards;
+    animation-delay: 0.5s; /* Retraso para que la animación comience después de un corto tiempo */
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-100%); /* Empieza fuera de la pantalla */
+    }
+    25% {
+        transform: translateY(30%); /* Baja a la mitad de la pantalla */
+    }
+    50% {
+        transform: translateY(-65%); /* Rebote suave */
+    }
+    75% {
+        transform: translateY(10%); /* Rebote suave */
+    }
+    100% {
+        transform: translateY(0); /* Rebote suave */
+    }
+}
+
+
+img.bebida {
+    position: relative;
+    top: 88px;
+    left: 11px;
+    /* width: 200px; */
+    height: 241px;
+}
