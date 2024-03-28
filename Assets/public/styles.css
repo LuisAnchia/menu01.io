@@ -226,3 +226,18 @@ img.bebida {
     /* width: 200px; */
     height: 241px;
 }
+
+/*tablet responsive*/
+
+@media screen and (min-width: 400px) and (max-width: 1024px) {
+    body {
+        background-size: 830px;
+        height: 252px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 1024px) {
+    .firstHamburger {
+        width: 210px;
+    }
+}
