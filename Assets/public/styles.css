@@ -241,3 +241,17 @@ img.bebida {
         width: 210px;
     }
 }
+
+@media screen and (min-width: 400px) and (max-width: 1024px) {
+    .firstHamburger {
+        width: 210px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 1024px) {
+    footer {
+        width: 56%;
+        bottom: 264px;
+        height: 380px;
+    }
+}
