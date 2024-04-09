@@ -230,21 +230,28 @@ img.bebida {
 
 .tablet\/desktop {
     position: relative;
-    margin-left: 345px;
-    bottom: 180px;
+    margin-left: 390px;
+    bottom: 140px;
 }
 
 .tablet\/desktop2 {
     position: relative;
     bottom: 280px;
-    margin-left: 70px;
+    margin-left: 130px;
 }
 
 .tablet\/desktop3 {
     position: relative;
-    margin-left: 345px;
+    margin-left: 390px;;
     margin-top: -214px;
-    bottom: 185px;
+    bottom: 170px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.titleFood--textTablet span {
+    font-weight: 100;
+    font-size: 10px;
 }
 
 .tablet\/desktop *, .tablet\/desktop2 * {
@@ -257,6 +264,11 @@ img.bebida {
 
 .tablet\/desktop h2, .tablet\/desktop2 h2 {
     font-size: 2rem;
+}
+
+.tablet\/desktop3 .titleFood--text *{ 
+    margin-left: 0px;
+    font-weight: bold;
 }
 
 /*tablet responsive*/
@@ -314,3 +326,8 @@ img.bebida {
     }
 }
 
+@media screen and (min-width: 675px){
+    .tituloBurger, .titleFood--text {
+        margin-left: 130px;
+    }
+}
