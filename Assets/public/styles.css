@@ -286,6 +286,16 @@ img.bebida {
     }
 }
 
+@media screen and (min-width: 500px) and (max-width: 674px) {
+    .firstHamburger {
+        width: 135px;
+        position: relative;
+        bottom: 101px;
+    
+    }
+}
+
+
 @media screen and (min-width: 675px) and (max-width: 1024px) {
     .firstHamburger {
         width: 230px;
@@ -294,6 +304,15 @@ img.bebida {
     }
 }
 
+@media screen and (min-width: 500px) and (max-width: 674px) {
+    footer {
+        width: 78%;
+        bottom: 225px;
+        height: 380px;
+    }
+}
+
+
 @media screen and (min-width: 764px) and (max-width: 1024px) {
     footer {
         width: 56%;
@@ -301,6 +320,13 @@ img.bebida {
         height: 380px;
     }
 }
+
+@media screen and (min-width: 500px) and (max-width: 764px) {
+    .titleFood--text span {
+        font-size: 10px;
+    }
+}
+
 
 @media screen and (min-width: 764px) and (max-width: 1024px) {
     .titleFood--text span {
@@ -320,9 +346,48 @@ img.bebida {
     }
 }
 
+@media screen and (min-width: 500px) and (max-width: 674px){
+    .titleFood--text p {
+        font-size: 1.2rem;
+    }
+}
+
 @media screen and (min-width: 675px){
     .titleFood--text p {
         font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 674px){
+    .tituloBurger, .titleFood--text {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 674px){
+    .displayFood {
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (min-width: 500px) and (max-width: 674px){
+    .titleFood--text2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 674px){
+    .titleFood--text2 span {
+        font-size: 10px;
+        font-weight: 100;
+    }
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 674px){
+    .mobile-tablet2 :nth-child(2) {
+        margin-left: 0px;
     }
 }
 
