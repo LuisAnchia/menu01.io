@@ -275,11 +275,24 @@ img.bebida {
 
 @media screen and (min-width: 400px) and (max-width: 1024px) {
     body {
-        background-size: 830px;
+        background-size: 1000px;
         height: 252px;
     }
 }
 
+@media screen and (min-width: 1024px) {
+    body {
+        background-size: 105%;
+        height: 350px;
+        }
+    }
+
+@media screen and (min-width: 1024px) {
+    .title_Prinicipal--h1 {
+        font-size: 5.7rem;
+    }
+}
+    
 @media screen and (min-width: 400px) and (max-width: 1024px) {
     .firstHamburger {
         width: 120px;
@@ -303,6 +316,22 @@ img.bebida {
         bottom: 145px;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .firstHamburger {
+        width: 430px;
+        position: relative;
+        bottom: 145px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .secondHamburger {
+        width: 330px;
+        top: 160px;
+    }
+}
+
 
 @media screen and (min-width: 500px) and (max-width: 674px) {
     footer {
@@ -394,5 +423,32 @@ img.bebida {
 @media screen and (min-width: 675px){
     .tituloBurger, .titleFood--text {
         margin-left: 130px;
+    }
+}
+/*medidas para desktop*/
+
+@media screen and (min-width: 1024px) {
+    .tablet\/desktop {
+        position: relative;
+        margin-left: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .tablet\/desktop h2, .tablet\/desktop2 h2 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .titleFood  {
+        font-size: 4rem;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .tituloBurger, .titleFood--text {
+        margin-left: 25%;    
     }
 }
