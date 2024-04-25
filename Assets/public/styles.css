@@ -1,6 +1,6 @@
 body{
     background: #FAF6D4;
-    background-image: url(/Assets/img/Patrón\ parte\ superior1.svg);
+    background-image: url(/Assets/img/Patrón\ parte\ superior.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -273,17 +273,25 @@ img.bebida {
 
 /*tablet responsive*/
 
+@media screen and (min-width: 320px) and (max-width: 400px) {
+    body {
+        background-image: url(../img/Patrón\ parte\ superior1.svg);
+    }
+}
+
 @media screen and (min-width: 400px) and (max-width: 1024px) {
     body {
         background-size: 1000px;
         height: 252px;
+        background-image: url(../img/Patrón\ parte\ superior1.svg);
     }
 }
 
 @media screen and (min-width: 1024px) {
     body {
-        background-size: 105%;
-        height: 350px;
+        background-size: 1500px;
+        height: 619px;
+        background-image: url(../img/Patrón\ parte\ superior.svg);
         }
     }
 
@@ -319,16 +327,17 @@ img.bebida {
 
 @media screen and (min-width: 1024px){
     .firstHamburger {
-        width: 430px;
+        width: 300px;
         position: relative;
-        bottom: 145px;
+        bottom: 425px;
     }
 }
 
 @media screen and (min-width: 1024px){
     .secondHamburger {
-        width: 330px;
-        top: 160px;
+        width: 184px;
+        top: -185px !important;
+        left: 110px;
     }
 }
 
@@ -436,19 +445,63 @@ img.bebida {
 
 @media screen and (min-width: 1024px) {
     .tablet\/desktop h2, .tablet\/desktop2 h2 {
-        font-size: 4rem;
+        font-size: 3rem;
+        font-weight: 500;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .titleFood  {
-        font-size: 4rem;
+        font-size: 3rem;
+        font-weight: 500;
+    }
+}
+
+
+/* @media screen and (min-width: 1024px) {
+    .tituloBurger, .titleFood--text {
+        margin-left: 25%;    
+    }
+} */
+
+
+@media only screen and (min-width: 1024px) {
+    .title_Prinicipal--h1 {
+        -webkit-text-stroke: 0.2px #CF1E18;
+        font-size: 85px !important;
+        margin-top: 72px;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    h1.title_Prinicipal--h1 span {
+        margin-top: -24px;
+        font-size: 80px;
+        font-weight: 500;
     }
 }
 
 
 @media screen and (min-width: 1024px) {
-    .tituloBurger, .titleFood--text {
-        margin-left: 25%;    
+    .tablet\/desktop2 {
+        position: relative;
+        bottom: 712px;
+        margin-left: 555px;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .tablet\/desktop3 {
+        margin-left: 933px;
+        bottom: 848px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .h2Extras {
+        font-size: 3rem;
+        font-weight: 500;
     }
 }
