@@ -167,7 +167,7 @@ img.background {
 
 .displayFood {
     display: flex;
-    gap: 5px;
+    /* gap: 5px; */
 }
 
 .h2Extras{
@@ -274,26 +274,26 @@ img.bebida {
 
 @media screen and (max-width: 767px) {
     .titleFood--text {
-        margin-left: 20px;
+        margin-left: 15px;
     }
 }
 
 
 @media screen and (max-width: 767px) {
     .titleFood {
-        left: 20px;
+        left: 15px;
     } 
 }
 
 @media screen and (max-width: 767px) {
     .titleFood--text2 {
-        margin-left: 20px;
+        margin-left: 15px;
     } 
 }
 
 @media screen and (max-width: 767px) {
     .h2Extras {
-        margin-left: 20px;
+        margin-left: 15px;
     }
 }
 
