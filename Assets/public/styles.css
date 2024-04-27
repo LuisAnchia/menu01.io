@@ -274,26 +274,26 @@ img.bebida {
 
 @media screen and (max-width: 767px) {
     .titleFood--text {
-        margin-left: 15px;
+        margin-left: 20px;
     }
 }
 
 
 @media screen and (max-width: 767px) {
     .titleFood {
-        left: 15px;
+        left: 20px;
     } 
 }
 
 @media screen and (max-width: 767px) {
     .titleFood--text2 {
-        margin-left: 15px;
+        margin-left: 20px;
     } 
 }
 
 @media screen and (max-width: 767px) {
     .h2Extras {
-        margin-left: 15px;
+        margin-left: 20px;
     }
 }
 
