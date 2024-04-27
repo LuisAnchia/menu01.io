@@ -84,7 +84,7 @@ h1.title_Prinicipal--h1 span {
 
 .titleFood--text2 {
     margin-top: -55px;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .titleFood--text2 p {
@@ -164,10 +164,14 @@ img.background {
     }
 }
 
+.main > :nth-child(2) {
+    margin-left: 20px;
+}
 
 .displayFood {
     display: flex;
-    gap: 5px;
+    gap: 20px;
+    margin-left: 20px;
 }
 
 .h2Extras{
@@ -176,6 +180,35 @@ img.background {
     font-weight: bold;
     font-size: 1.9rem;
     font-family: "Lilita One", sans-serif;
+}
+
+
+.tituloBurger > :first-child {
+    margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .main > :nth-child(2) {
+        margin-left: 17%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .tituloBurger > :first-child {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main > :nth-child(2) {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .tituloBurger > :first-child {
+        margin-left: 15px;
+    }
 }
 
 footer {
@@ -272,32 +305,8 @@ img.bebida {
     font-weight: bold;
 }
 
-@media screen and (max-width: 767px) {
-    .titleFood--text {
-        margin-left: 20px;
-    }
-}
-
-
-@media screen and (max-width: 767px) {
-    .titleFood {
-        left: 20px;
-    } 
-}
-
-@media screen and (max-width: 767px) {
-    .titleFood--text2 {
-        margin-left: 20px;
-    } 
-}
-
-@media screen and (max-width: 767px) {
-    .h2Extras {
-        margin-left: 20px;
-    }
-}
-
 /*tablet responsive*/
+
 @media screen and (min-width: 320px) and (max-width: 400px) {
     body {
         background-image: url(../img/Patrón\ parte\ superior1.svg);
