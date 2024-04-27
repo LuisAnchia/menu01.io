@@ -167,7 +167,7 @@ img.background {
 
 .displayFood {
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
 
 .h2Extras{
@@ -272,8 +272,32 @@ img.bebida {
     font-weight: bold;
 }
 
-/*tablet responsive*/
+@media screen and (max-width: 767px) {
+    .titleFood--text {
+        margin-left: 20px;
+    }
+}
 
+
+@media screen and (max-width: 767px) {
+    .titleFood {
+        left: 20px;
+    } 
+}
+
+@media screen and (max-width: 767px) {
+    .titleFood--text2 {
+        margin-left: 20px;
+    } 
+}
+
+@media screen and (max-width: 767px) {
+    .h2Extras {
+        margin-left: 20px;
+    }
+}
+
+/*tablet responsive*/
 @media screen and (min-width: 320px) and (max-width: 400px) {
     body {
         background-image: url(../img/Patrón\ parte\ superior1.svg);
