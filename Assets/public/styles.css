@@ -167,7 +167,7 @@ img.background {
 
 .displayFood {
     display: flex;
-    /* gap: 5px; */
+    gap: 5px;
 }
 
 .h2Extras{
