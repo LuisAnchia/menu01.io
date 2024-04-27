@@ -19,6 +19,7 @@ body{
 }
 .content{
     padding: 10px;
+    display: contents;
 }
 
 .title_Prinicipal--h1 {
@@ -359,6 +360,16 @@ img.bebida {
     }
 }
 
+
+/* @media screen and (min-width: 1024px){
+    footer {
+        width: 56%;
+        bottom: 380px;
+        height: 380px;
+    }
+} */
+
+
 @media screen and (min-width: 500px) and (max-width: 764px) {
     .titleFood--text span {
         font-size: 10px;
@@ -439,7 +450,8 @@ img.bebida {
 @media screen and (min-width: 1024px) {
     .tablet\/desktop {
         position: relative;
-        margin-left: 50%;
+        margin-left: 555px;
+        bottom: 50px;
     }
 }
 
@@ -469,7 +481,7 @@ img.bebida {
     .title_Prinicipal--h1 {
         -webkit-text-stroke: 0.2px #CF1E18;
         font-size: 85px !important;
-        margin-top: 72px;
+        margin-top: 90px;
     }
 }
 
@@ -503,5 +515,22 @@ img.bebida {
     .h2Extras {
         font-size: 3rem;
         font-weight: 500;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    footer {
+        bottom: 900px;
+        background-size: cover;
+        width: 691px;
+        height: -webkit-fill-available;
+    }
+}
+
+/* Reglas CSS solo para dispositivos de escritorio */
+@media screen and (min-width: 1024px) {
+    img.bebida {
+        left: 75px;
+        height: 500px;
     }
 }
