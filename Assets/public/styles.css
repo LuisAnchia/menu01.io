@@ -660,3 +660,9 @@ img.bebida {
     margin-bottom: 31px;
  }
 }
+
+@media (max-width: 767px) {
+    .titleFood--text span {
+        font-size: 6.9px;
+    }
+}
