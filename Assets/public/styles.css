@@ -662,7 +662,8 @@ img.bebida {
 }
 
 @media (max-width: 767px) {
-    .titleFood--text span {
+    .titleFood--text span,
+    .titleFood--text2 span {
         font-size: 6.6px;
     }
 }
