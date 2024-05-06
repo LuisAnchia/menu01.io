@@ -201,13 +201,14 @@ img.background {
 
 @media screen and (min-width: 1024px) {
     .main > :nth-child(2) {
-        margin-left: 10%;
+        margin-left: 13.5%;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .tituloBurger > :first-child {
-        margin-left: 15px;
+        margin-left: 67px;
+        bottom: 31px;
     }
 }
 
@@ -275,6 +276,15 @@ img.bebida {
 }
 
 .tablet\/desktop3 {
+    position: relative;
+    margin-left: 390px;;
+    margin-top: -214px;
+    bottom: 170px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.tablet\/desktop4 {
     position: relative;
     margin-left: 390px;;
     margin-top: -214px;
@@ -361,17 +371,18 @@ img.bebida {
 
 @media screen and (min-width: 1024px){
     .firstHamburger {
-        width: 300px;
+        width: 245px;
         position: relative;
-        bottom: 425px;
+        bottom: 338px;
+        right: 135px;
     }
 }
 
 @media screen and (min-width: 1024px){
     .secondHamburger {
-        width: 184px;
-        top: -185px !important;
-        left: 110px;
+        width: 130px;
+        top: -150px !important;
+        left: 30px;
     }
 }
 
@@ -478,26 +489,34 @@ img.bebida {
         margin-left: 130px;
     }
 }
+
 /*medidas para desktop*/
 
 @media screen and (min-width: 1024px) {
     .tablet\/desktop {
         position: relative;
-        margin-left: 555px;
-        bottom: 50px;
+        margin-left: 565px;
+        bottom: 65px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .tablet\/desktop h2, .tablet\/desktop2 h2 {
-        font-size: 3rem;
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .h2Extras {
+        font-size: 2.2rem;
         font-weight: 500;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .titleFood  {
-        font-size: 3rem;
+        font-size: 2.2rem;
         font-weight: 500;
     }
 }
@@ -531,8 +550,8 @@ img.bebida {
 @media screen and (min-width: 1024px) {
     .tablet\/desktop2 {
         position: relative;
-        bottom: 712px;
-        margin-left: 555px;
+        bottom: 650px;
+        margin-left: 565px;
     }
 }
 
@@ -540,30 +559,104 @@ img.bebida {
 @media screen and (min-width: 1024px) {
     .tablet\/desktop3 {
         margin-left: 933px;
-        bottom: 848px;
+        bottom: 752px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .h2Extras {
-        font-size: 3rem;
-        font-weight: 500;
+    .tablet\/desktop4 {
+        margin-left: 933px;
+        bottom: 543px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     footer {
-        bottom: 900px;
+        bottom: 835px;
         background-size: cover;
-        width: 691px;
-        height: -webkit-fill-available;
+        width: 30%;
+        /* height: 62%; */
+        left: -20px;
     }
 }
 
 /* Reglas CSS solo para dispositivos de escritorio */
 @media screen and (min-width: 1024px) {
     img.bebida {
-        left: 75px;
-        height: 500px;
+        left: 38px;
+        top: 35px;
+        height: 90%;
     }
+}
+
+@media (min-width: 1024px) {
+    .titleFood--textTablet p::before {
+        content: "Lorem ipsum........................ ₡00.00" !important;
+        color: black !important;
+    }
+
+    .titleFood--textTablet span::before {
+        content: "Lorem ipsum dolor sit amet, consectetuer adipiscing." !important;
+        color: black !important;
+        font-size: 0.85rem;
+    }
+
+    .titleFood--textTablet p {
+        color: transparent;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .titleFood--text2 p::before {
+        content: "Lorem ipsum........................ ₡00.00" !important;
+        color: black !important;
+    }
+
+    .titleFood--text2 span::before {
+        content: "Lorem ipsum dolor sit amet, consectetuer adipiscing." !important;
+        color: black !important;
+        font-size: 0.85rem;
+    }
+
+    .titleFood--text2 p {
+        color: transparent;
+    }
+}
+
+@media (min-width: 1024px) {
+    .titleFood--text p::before {
+        content: "Lorem ipsum........................ ₡00.00" !important;
+        color: black !important;
+    }
+
+    .titleFood--text span::before {
+        content: "Lorem ipsum dolor sit amet, consectetuer adipiscing." !important;
+        color: black !important;
+        font-size: 0.85rem;
+    }
+
+    .titleFood--text p {
+        color: transparent;
+    }
+
+    .titleFood--textTablet {
+        margin-top: -14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .tablet\/desktop4 {
+        display: none;
+    }
+}
+
+.tablet\/desktop4 h2 {
+    bottom: 0px;
+}
+
+@media (min-width: 1024px) {
+  .main .titleFood--text {
+    margin-bottom: 31px;
+ }
 }
