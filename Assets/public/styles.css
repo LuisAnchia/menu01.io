@@ -201,7 +201,7 @@ img.background {
 
 @media screen and (min-width: 1024px) {
     .main > :nth-child(2) {
-        margin-left: 13.5%;
+        margin-left: 13%;
     }
 }
 
@@ -333,7 +333,16 @@ img.bebida {
 
 @media screen and (min-width: 1024px) {
     body {
-        background-size: 1500px;
+        background-size: 1521px;
+        height: 619px;
+        background-image: url(../img/Patrón\ parte\ superior.svg);
+        }
+    }
+
+
+@media screen and (min-width: 1440px) and (max-width: 1500px) {
+    body {
+        background-size: 1900px;
         height: 619px;
         background-image: url(../img/Patrón\ parte\ superior.svg);
         }
@@ -497,6 +506,57 @@ img.bebida {
         position: relative;
         margin-left: 565px;
         bottom: 65px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1022px){
+    .tablet\/desktop {
+        margin-left: 500px;
+    }
+
+    .tablet\/desktop2 {
+        margin-left: 200px;
+    }
+
+    .tablet\/desktop3 {
+        margin-left: 500px;
+    }
+
+    .tablet\/desktop4 {
+        margin-left: 615px;
+        margin-top: -200px;
+    }
+
+    .main > :nth-child(2) {
+        margin-left: 21.2%;
+    }
+
+    .tituloBurger > :first-child {
+        margin-left: 70px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1439px){
+    .tablet\/desktop4 {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 1022px) and (max-width: 1439px){
+    .main > :nth-child(2) {
+        margin-left: 5%;
+    }
+
+    .tituloBurger > :first-child {
+        margin-left: -66px;
+    }
+
+    .tablet\/desktop2 {
+        margin-left: 450px !important;
+    }
+
+    .tablet\/desktop {
+        margin-left: 450px;
     }
 }
 
